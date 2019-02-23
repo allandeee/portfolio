@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "script": "gh-pages -d public_html"
+    "deploy": "gh-pages -d public_html"
   },
   "keywords": [],
   "author": "",
