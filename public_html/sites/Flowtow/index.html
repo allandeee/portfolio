@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FlowTow</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel='stylesheet' href='static/style.css' type='text/css'>
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div class='top'>
+
+            <ul class='nav'>
+                <li>
+                    <a id="logo" href="index.html">FlowTow</a>
+                </li>
+                <li><a href="#">My Images</a></li>
+                <li><a href="aboutpg.html">About this site</a></li>
+
+                <form method="post" id="loginform" action="#">
+                    <li>Nick:
+                        <input name="nick">
+                    </li>
+                    <li>Password:
+                        <input type="password" name="password">
+                    </li>
+                    <li>
+                        <input type="submit" value="LOGIN" class="logbutton">
+                    </li>
+                </form>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <div>
+	 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="static/images/tab-logo.png" sizes="16x16">
+
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.likebutton').click(function (e) {
+                $(this).toggleClass('likeClicked');
+            });
+        });
+    </script>v
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class='content'>
+            <div>
+                <h1 id="banner">Welcome to FlowTow</h1>
+            </div>
+            <form id="uploadform" action="/upload" method="post" enctype="multipart/form-data">
+                <div>
+                </div>
+            </form>
+
+            <div class='flowtow'>
+                <div class='image'>
+                    <img src="static/images/princess-bubblegum.jpg" alt=princess-bubblegum>
+                    <p class='date'>2016-05-20 10:00:15</p>
+                    <p class='user'>Contrary</p>
+                    <p class='likediv'><b class="likes">0</b> likes</p>
+                </div>
+            </div>
+
+            <div class='flowtow'>
+                <div class='image'>
+                    <img src="static/images/batgirl.jpg" alt=batgirl>
+                    <p class='date'>2016-05-20 10:00:03</p>
+                    <p class='user'>Contrary</p>
+                    <p class='likediv'><b class="likes">0</b> likes</p>
+                </div>
+            </div>
+
+            <div class='flowtow'>
+                <div class='image'>
+                    <img src="static/images/cycling.jpg" alt=cycling>
+                    <p class='date'>2015-02-20 01:45:06</p>
+                    <p class='user'>Bobalooba</p>
+                    <p class='likediv'><b class="likes">4</b> likes</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>

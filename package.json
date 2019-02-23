@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "script": "gh-pages -d public_html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://allandeee.github.io/portfolio",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

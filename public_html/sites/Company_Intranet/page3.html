@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Our Selection</title>
+
+    <link rel="stylesheet" href="static/style.css">
+
+    <link href="static/jqueries/js/jquery.bxslider.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!--http://bxslider.com/-->
+
+    <script src="static/jqueries/js/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.bxslider').bxSlider({
+                auto: true,
+                autoControls: true
+            });
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="top">
+            <nav id="navbar">
+                <a href="index.html">MAIN</a>
+                <a href="page1.html">PURPOSE</a>
+                <a href="page2.html">PLACE BET</a>
+                <a class="active" href="page3.html">GALLERY</a>
+            </nav>
+        </div>
+        <div id="content">
+
+            <div id="middle">
+                <h1>Past Events Gallery</h1>
+            </div>
+
+            <div id="bottom">
+                <div id="photoslide">
+                    <ul class="bxslider">
+                        <li><img src="static/images/facility.jpg"/></li>
+                        <li><img src="static/images/betting.jpg"/></li>
+                        <li><img src="static/images/workstation.jpg" /></li>
+                        <li><img src="static/images/discussion%20board.jpg" /></li>
+                        <li><img src="static/images/party.jpg" /></li>
+                        <li><img src="static/images/dance.jpg" /></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

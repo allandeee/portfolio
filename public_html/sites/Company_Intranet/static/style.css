@@ -1,0 +1,354 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-color: #212121;
+    overflow: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#top {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#navbar {
+    margin: 0;
+    float: right;
+    border-bottom: 1px solid white;
+    font-family: 'Crimson Text', serif;
+}
+
+#navbar a {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 30px;
+    text-decoration: none;
+    /* Safari */
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#navbar a:hover {
+    color: #C62828;
+}
+
+#navbar .active {
+    color: #9E9E9E;
+}
+
+#content {
+    color: #D0D3D4;
+    
+}
+
+#banner {
+    position: relative;
+    max-width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+#banner #bannerimg {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+#banner a #bannerimg img {
+    width: 100%;
+}
+
+#banner #overtext {
+    position: absolute;
+    font-family: 'Crimson Text', serif;
+    color: rgba(50, 50, 50, 0);
+    background-color: rgba(50, 50, 50, 0);
+    width: 100%;
+    font-size: 70px;
+    padding: 20px;
+    top: 300px;
+    left: 0;
+    border-radius: 3px;
+    /* Safari */
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#banner #overtext:hover {
+    cursor: pointer;
+    color: #B71C1C;
+}
+
+#tallbox {
+    float: left;
+    display: inline-block;
+    width: 47%;
+    height: auto;
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid gray;
+    border-bottom: 0;
+}
+
+.box {
+    float: left;
+    display: inline-block;
+    width: 47%;
+    height: auto;
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.box h2 {
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Crimson Text', serif;
+    margin: 10px 0;
+}
+
+.box h2 b {
+    font-size-adjust: 10px;
+    font-weight: 700;
+}
+
+.box h3 {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Crimson Text', serif;
+    margin-top: 10px;
+}
+
+.box h4 {
+    text-align: right;
+    font-size: 23px;
+    font-family: 'Crimson Text', serif;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box p b {
+    font-weight: 700;
+}
+
+.box a {
+    color: #D0D3D4;
+    /* Safari */
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: #C62828;
+}
+
+.box .section {
+    margin-bottom: 50px;
+}
+
+.box #bottomsection {
+	padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+}
+
+.box .section p {
+    font-size: 15px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.box .monster {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.box .monster img {
+    margin-top: -100px;
+}
+
+
+#event {
+    line-height: 30px;
+    width: 47%;
+    line-height: 40px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+
+#bets {
+    padding: 20px;
+    width: 47%;
+    line-height: 50px;
+}
+
+#past {
+    padding: 20px;
+    width: 47%;
+    margin-top: 10px;
+}
+
+#past a h2 {
+    padding-bottom: 20px;
+}
+
+#staffbox {
+    margin-right: 32px;
+}
+
+#staffbox p {
+    font-size: 15px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+#middle h1 {
+    font-size: 70px;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    font-family: 'Crimson Text', serif;
+}
+
+.descriptionbox {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 35px;
+    border-bottom: 1px solid gray;
+    padding: 20px 0;
+}
+
+.descriptionbox img {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    max-width: 500px;
+}
+
+.descriptionbox #top-pick {
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+}
+
+.descriptionbox h2 {
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Crimson Text', serif;
+}
+
+.descriptionbox h3 {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Crimson Text', serif;
+}
+
+.descriptionbox p {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px
+}
+
+.descriptionbox .staff {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.descriptionbox .staff img {
+    max-width: 120px;
+    border-radius: 100px;
+}
+
+.descriptionbox .staff p {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px
+}
+
+#photoslide {
+    margin: 0 5px 35px;
+    border-bottom: 1px solid gray;
+}
+
+#photoslide .bxslider img {
+    width: 100%;
+}
