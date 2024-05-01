@@ -380,7 +380,7 @@ a {
 
 .cont-grid {
   height: auto;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
 }
 
@@ -400,7 +400,7 @@ a {
 
 .company-img {
   max-height: 100%;
-  width: 100%;
+  width: auto;
 }
 
 #footer {
